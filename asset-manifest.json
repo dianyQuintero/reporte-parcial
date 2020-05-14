@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/reporte-parcial/static/css/main.5dcad7a3.chunk.css",
+    "main.js": "/reporte-parcial/static/js/main.098c98ce.chunk.js",
+    "main.js.map": "/reporte-parcial/static/js/main.098c98ce.chunk.js.map",
+    "runtime-main.js": "/reporte-parcial/static/js/runtime-main.907d131c.js",
+    "runtime-main.js.map": "/reporte-parcial/static/js/runtime-main.907d131c.js.map",
+    "static/js/2.9bd59538.chunk.js": "/reporte-parcial/static/js/2.9bd59538.chunk.js",
+    "static/js/2.9bd59538.chunk.js.map": "/reporte-parcial/static/js/2.9bd59538.chunk.js.map",
+    "index.html": "/reporte-parcial/index.html",
+    "precache-manifest.138d2e719283c91542b4e6fe5d45df4e.js": "/reporte-parcial/precache-manifest.138d2e719283c91542b4e6fe5d45df4e.js",
+    "service-worker.js": "/reporte-parcial/service-worker.js",
+    "static/css/main.5dcad7a3.chunk.css.map": "/reporte-parcial/static/css/main.5dcad7a3.chunk.css.map",
+    "static/js/2.9bd59538.chunk.js.LICENSE.txt": "/reporte-parcial/static/js/2.9bd59538.chunk.js.LICENSE.txt",
+    "static/media/BOTON.jpg": "/reporte-parcial/static/media/BOTON.bdfbf739.jpg",
+    "static/media/BOTONL.jpg": "/reporte-parcial/static/media/BOTONL.b5e1498b.jpg",
+    "static/media/CarpetasDARK.jpg": "/reporte-parcial/static/media/CarpetasDARK.76047956.jpg",
+    "static/media/CarpetasLIGHT.jpg": "/reporte-parcial/static/media/CarpetasLIGHT.5a9a52fe.jpg",
+    "static/media/darkPalette.png": "/reporte-parcial/static/media/darkPalette.df86aa17.png",
+    "static/media/img1.jpg": "/reporte-parcial/static/media/img1.ca5ba601.jpg",
+    "static/media/img1Dark.jpg": "/reporte-parcial/static/media/img1Dark.c2480b2e.jpg",
+    "static/media/img1Light.jpg": "/reporte-parcial/static/media/img1Light.46475d73.jpg",
+    "static/media/img2.jpg": "/reporte-parcial/static/media/img2.208a0f07.jpg",
+    "static/media/img2Dark.jpg": "/reporte-parcial/static/media/img2Dark.96b9db90.jpg",
+    "static/media/img2Light.jpg": "/reporte-parcial/static/media/img2Light.990ea370.jpg",
+    "static/media/lightPalette.png": "/reporte-parcial/static/media/lightPalette.43d7b215.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.907d131c.js",
+    "static/js/2.9bd59538.chunk.js",
+    "static/css/main.5dcad7a3.chunk.css",
+    "static/js/main.098c98ce.chunk.js"
+  ]
+}
