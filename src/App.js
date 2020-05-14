@@ -4,6 +4,15 @@ import Navbar from './Components/navbar.js';
 import Descipcion from './Components/descripcion.js';
 import Features from './Components/features.js';
 import Desingn from './Components/design.js';
+import Repositorio from './Components/repositorio.js';
+import Conectividad from './Components/conectividad.js';
+import CodigoEstatico from './Components/codigoEstatico.js';
+import Threads from './Components/threads.js';
+import Performance from './Components/performance.js';
+import Storage from './Components/storage.js';
+import Cache from './Components/cache.js';
+import Permisos from './Components/permisos.js';
+import Seguridad from './Components/seguridad.js';
 
 
 export default class App extends React.Component{
@@ -11,15 +20,35 @@ export default class App extends React.Component{
   render(){
     return(
       <div className="row">
-        <Navbar></Navbar>
-        <div className="col-10 d-flex flex-column">
+        <div className="col-3">
+          <Navbar></Navbar>
+        </div>
+        
+        <div className="col-9 d-flex flex-column">
           <br></br>
-          <Descipcion></Descipcion> 
+          <Descipcion/> 
           <br></br>
-          <Features></Features>
+          <Features/>
           <br></br>  
-          <Desingn></Desingn>
+          <Desingn/>
           <br></br>  
+          <Repositorio/>
+          <br></br>  
+          <Conectividad/>
+          <br></br>
+          <CodigoEstatico/>  
+          <br></br>
+          <Threads/>
+          <br></br>
+          <Performance/>
+          <br></br>
+          <Storage/>
+          <br></br>
+          <Cache/>
+          <br></br>
+          <Permisos/>
+          <br></br>
+          <Seguridad/>
         </div>
       </div>
     )
