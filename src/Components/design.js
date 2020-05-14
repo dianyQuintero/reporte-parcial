@@ -282,10 +282,8 @@ export default class Design extends React.Component{
                         <img src={bloqueo} id="fastForwardApp" className="img-fluid" alt="versionesStyles"/>   
                         </div>
                     </div>
-                    
                 </div>
                 </div>
-                
             </div>
         </div>
     )
