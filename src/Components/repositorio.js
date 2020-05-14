@@ -1,9 +1,20 @@
 import React from 'react';
+import json from '../assets/files/data.json'
 
 
 
 export default class Reporitorio extends React.Component{
+
+    
+
+      recorrerJSON(){
+          json.Valores.forEach(v =>{
+              console.log(v.Registro)
+          })
+      }
+
     render(){
+        this.recorrerJSON()
         return(
             <div className="card  shadow h-100 py-2" id="repo">
             <div className="card-body">

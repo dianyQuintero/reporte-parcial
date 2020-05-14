@@ -13,7 +13,7 @@ export default class Navbar extends React.Component{
                 </div>
                 <div className="sidebar-brand-text mx-3">Reporte VLC- Android</div>
                 </a>
-                <hr class="sidebar-divider my-0"/>
+                <hr className="sidebar-divider my-0"/>
                 <li className="nav-item  ">
                     <a className="nav-link" href="#features">
                         <i className="fas fa-fw fa-tachometer-alt"></i>

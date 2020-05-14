@@ -1,0 +1,20 @@
+#correcta,#incorrecta{
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-fluid{
+    padding-left: 10px;
+}
+#volApp,#fastForwardApp{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#volPc,#fastForwardPC{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
