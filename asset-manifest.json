@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reporte-parcial/static/css/main.f5138b6c.chunk.css",
-    "main.js": "/reporte-parcial/static/js/main.1d1c8ceb.chunk.js",
-    "main.js.map": "/reporte-parcial/static/js/main.1d1c8ceb.chunk.js.map",
+    "main.css": "/reporte-parcial/static/css/main.3db22fd6.chunk.css",
+    "main.js": "/reporte-parcial/static/js/main.fd4d3ce6.chunk.js",
+    "main.js.map": "/reporte-parcial/static/js/main.fd4d3ce6.chunk.js.map",
     "runtime-main.js": "/reporte-parcial/static/js/runtime-main.907d131c.js",
     "runtime-main.js.map": "/reporte-parcial/static/js/runtime-main.907d131c.js.map",
-    "static/js/2.9e000b31.chunk.js": "/reporte-parcial/static/js/2.9e000b31.chunk.js",
-    "static/js/2.9e000b31.chunk.js.map": "/reporte-parcial/static/js/2.9e000b31.chunk.js.map",
+    "static/js/2.cb47f3ab.chunk.js": "/reporte-parcial/static/js/2.cb47f3ab.chunk.js",
+    "static/js/2.cb47f3ab.chunk.js.map": "/reporte-parcial/static/js/2.cb47f3ab.chunk.js.map",
     "index.html": "/reporte-parcial/index.html",
-    "precache-manifest.4d2e9e5dab4fa2d312ef1b86c05034b7.js": "/reporte-parcial/precache-manifest.4d2e9e5dab4fa2d312ef1b86c05034b7.js",
+    "precache-manifest.e49a011b52bade440548c27a8fb7a664.js": "/reporte-parcial/precache-manifest.e49a011b52bade440548c27a8fb7a664.js",
     "service-worker.js": "/reporte-parcial/service-worker.js",
-    "static/css/main.f5138b6c.chunk.css.map": "/reporte-parcial/static/css/main.f5138b6c.chunk.css.map",
-    "static/js/2.9e000b31.chunk.js.LICENSE.txt": "/reporte-parcial/static/js/2.9e000b31.chunk.js.LICENSE.txt",
+    "static/css/main.3db22fd6.chunk.css.map": "/reporte-parcial/static/css/main.3db22fd6.chunk.css.map",
+    "static/js/2.cb47f3ab.chunk.js.LICENSE.txt": "/reporte-parcial/static/js/2.cb47f3ab.chunk.js.LICENSE.txt",
     "static/media/BOTON.jpg": "/reporte-parcial/static/media/BOTON.bdfbf739.jpg",
     "static/media/BOTONL.jpg": "/reporte-parcial/static/media/BOTONL.b5e1498b.jpg",
     "static/media/CarpetasDARK.jpg": "/reporte-parcial/static/media/CarpetasDARK.76047956.jpg",
@@ -19,6 +19,7 @@
     "static/media/Caso1.gif": "/reporte-parcial/static/media/Caso1.cdc0de92.gif",
     "static/media/Caso2.gif": "/reporte-parcial/static/media/Caso2.e5c7c6ed.gif",
     "static/media/Caso3.gif": "/reporte-parcial/static/media/Caso3.db2be87f.gif",
+    "static/media/Logo.png": "/reporte-parcial/static/media/Logo.e9f38d14.png",
     "static/media/bateria.jpg": "/reporte-parcial/static/media/bateria.c08470e7.jpg",
     "static/media/bloqueo.gif": "/reporte-parcial/static/media/bloqueo.131566ef.gif",
     "static/media/correctleng.jpg": "/reporte-parcial/static/media/correctleng.92297efc.jpg",
@@ -33,6 +34,8 @@
     "static/media/img2Light.jpg": "/reporte-parcial/static/media/img2Light.990ea370.jpg",
     "static/media/incorrectleng.PNG": "/reporte-parcial/static/media/incorrectleng.b43a4a02.PNG",
     "static/media/lightPalette.png": "/reporte-parcial/static/media/lightPalette.43d7b215.png",
+    "static/media/permiso1.jpg": "/reporte-parcial/static/media/permiso1.49d1893d.jpg",
+    "static/media/permiso2.jpg": "/reporte-parcial/static/media/permiso2.55a9bc2b.jpg",
     "static/media/vlcApp.jpg": "/reporte-parcial/static/media/vlcApp.1dae8dc3.jpg",
     "static/media/vlcPC.png": "/reporte-parcial/static/media/vlcPC.bdd53dab.png",
     "static/media/volumenPc.gif": "/reporte-parcial/static/media/volumenPc.22bcd7e3.gif",
@@ -40,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.907d131c.js",
-    "static/js/2.9e000b31.chunk.js",
-    "static/css/main.f5138b6c.chunk.css",
-    "static/js/main.1d1c8ceb.chunk.js"
+    "static/js/2.cb47f3ab.chunk.js",
+    "static/css/main.3db22fd6.chunk.css",
+    "static/js/main.fd4d3ce6.chunk.js"
   ]
 }
