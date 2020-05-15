@@ -2,8 +2,6 @@ import React from 'react';
 import json from '../assets/files/data.json'
 import CanvasJSReact from './canvasjs.react';
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
-
-
 var blanksJava=[];
 var codeJava=[];
 var filesJava=[];
@@ -49,30 +47,29 @@ export default class Reporitorio extends React.Component{
                         archivosC_header= line.files
                     }
                     if(line.language === "Java"){
-                        //Lleno cada arreglo
+                        //Asigno valores
                         codJava=line.code
                         blancosJava = line.blank
                         archivosJava = line.files
                     }
                     if(line.language === "C"){
-                        //Lleno cada arreglo
+                        //Asigno valores
                         codC = line.code
                         blancosC = line.blank
                         archivosC = line.files
                     }
                     if(line.language === "C++"){
-                        //Lleno cada arreglo
+                        //Asigno valores
                         codC_=line.code
                         blancosC_ = line.blank
                         archivosC_ = line.files
                     }
                     if(line.language === "Kotlin"){
-                        //Lleno cada arreglo
+                        //Asigno valores
                         codKotlin=line.code
                         blancosKotlin = line.blank
                         archivosKotlin = line.files
                     }
-                    
                 } )
                 blanksKotlin.push({"y":blancosKotlin, "label": value.Registro[0].tag});
                 filesKotlin.push({"y":archivosKotlin, "label": value.Registro[0].tag});
@@ -96,7 +93,6 @@ export default class Reporitorio extends React.Component{
 
     render(){
         this.procesarJSON()
-        
         const optionsCode = {
             animationEnabled: true,
             theme: "light2",
@@ -161,7 +157,6 @@ export default class Reporitorio extends React.Component{
             }
         ]
     }
-
             const optionsBlancos = {
                 animationEnabled: true,	
                 theme: "light2",
@@ -226,7 +221,6 @@ export default class Reporitorio extends React.Component{
                 }
             ]
         }
-
         const optionsFiles = {
             animationEnabled: true,
             theme: "light2",
@@ -323,8 +317,39 @@ export default class Reporitorio extends React.Component{
                         la información en un archivo Json. El script lo corrimos el 13 de Mayo y obtuvimos 
                         los datos necesarios para realizar las gráficas que se pueden comparar por lenguajes.
                      </h5>
+                     <h5>El script se encuentra en el siguiente</h5>&nbsp;
+                     <a href="#" > <h5>enlace.</h5> </a>
                 </div>
                 <div className="text-lg font-weight-bold text-primary mb-1">Análisis:</div>
+                <br></br>
+                <div className="row no-gutters align-items-center">
+                <div className="col-12">
+                <h5>Estructura del proyecto:</h5>
+                <ul> 
+                    <li>
+                        <h5>Extension-api : Application extensions SDK</h5>
+                    </li>
+                    <li>
+                        <h5>Application:código fuente de la aplicación organizado por módulos.</h5>
+                    </li>
+                    <li>
+                        <h5>Libvlc: módulo gradle de LibVLC, el código fuente de VLC se clonará en vlc / a nivel raíz.</h5>
+                    </li>
+                    <li>
+                        <h5>Medialibrary: módulo de gradle Medialibrary.</h5>
+                    </li>
+                    </ul>
+                    <h5 align="justify" >Como se puede apreciar en la gráfica que compara el número de archivos, 
+                    en los ultimos releases predominan los archivos Kotlin. Se puede ver el crecimiento de estos 
+                    a partir de la versión 3 en contraste se evidencia la disminucín de los archivos Java, 
+                    que en un punto estuvieron en 260 y ahora no hay más de 90. Revisamos cuáles archivos son 
+                    los que no se cambiaron a Kotlin, notamos que los archivos Java se encuentran distribuidos 
+                    en su mayoría en las carpetas de Extension-api y Medialibrary, dentro del código fuente de 
+                    la app solo existen 4 archivos correspondientes a extensiones.(JUSTIFICAR ESO). 
+                    Adicionalmente, en las 3 gráficas se observa que los archivos C/C++ Header tuvieron
+                    una considerable disminucióon también cuando se empezó a implementar Kotlin en el proyecto.</h5>
+                    </div>
+                    </div>
             </div>
         </div>
         )
