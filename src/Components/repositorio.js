@@ -124,6 +124,7 @@ export default class Reporitorio extends React.Component{
             },
             axisX:{
                 labelAngle: 50,
+                labelFontSize: 10,
               },
             toolTip: {
                 shared: true
@@ -188,6 +189,7 @@ export default class Reporitorio extends React.Component{
                 },
                 axisX:{
                     labelAngle: 50,
+                    labelFontSize: 10,
                   },
                 toolTip: {
                     shared: true
@@ -252,6 +254,7 @@ export default class Reporitorio extends React.Component{
             },
             axisX:{
                 labelAngle: 50,
+                labelFontSize: 10,
               },
             toolTip: {
                 shared: true
@@ -298,18 +301,25 @@ export default class Reporitorio extends React.Component{
                     <div className="text-lg font-weight-bold text-primary text-uppercase mb-1">Repositorio</div>
                 </div>
                 </div>
-                    <CanvasJSChart options = {optionsCode} 
+                <div className="row no-gutters align-items-center">
+                <CanvasJSChart options = {optionsCode} 
                     /* onRef={ref => this.chart = ref} */
                     />
+                </div>
+                    
       
                 <br></br>
-                    <CanvasJSChart options = {optionsBlancos} 
+                <div className="row no-gutters align-items-center">
+                <CanvasJSChart options = {optionsBlancos} 
                     /* onRef={ref => this.chart = ref} */
                     />
+                </div>
                 <br></br>
-                    <CanvasJSChart options = {optionsFiles} 
+                <div className="row no-gutters align-items-center">
+                <CanvasJSChart options = {optionsFiles} 
                     /* onRef={ref => this.chart = ref} */
                     />
+                </div>
             </div>
         </div>
         )
