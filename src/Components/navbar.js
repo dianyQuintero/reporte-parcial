@@ -16,32 +16,27 @@ export default class Navbar extends React.Component{
                 <hr className="sidebar-divider my-0"/>
                 <li className="nav-item  ">
                     <a className="nav-link" href="#features">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
+                        <i className="fa fa-play"></i>
                         <span>Features</span></a>
                     </li>
                 <li className="nav-item  ">
                     <a className="nav-link" href="#design">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
+                        <i className="fa fa-eye"></i>
                         <span>UI / UX Design </span></a>
                     </li>
                 <li className="nav-item  ">
                     <a className="nav-link" href="#repo">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
-                        <span>Repositorio </span></a>
+                        <i className="fa fa-list"></i>
+                        <span>Repositorio y Análisis código estático </span></a>
                     </li>
                 <li className="nav-item  ">
                     <a className="nav-link" href="#conectividad">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
+                        <i className="fa fa-plug"></i>
                         <span>Conectividad Eventual </span></a>
                     </li>
                 <li className="nav-item  ">
-                    <a className="nav-link" href="#codigo">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
-                        <span>Análisis código estático </span></a>
-                    </li>
-                <li className="nav-item  ">
                     <a className="nav-link" href="#threads">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
+                        <i className="fa fa-tasks"></i>
                         <span>Manejo de threads </span></a>
                     </li>
                 <li className="nav-item  ">
@@ -51,17 +46,17 @@ export default class Navbar extends React.Component{
                     </li>
                 <li className="nav-item  ">
                     <a className="nav-link" href="#storage">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
+                        <i className="fa fa-database"></i>
                         <span>Storage y Manejo de Caché  </span></a>
                     </li>
                 <li className="nav-item  ">
                     <a className="nav-link" href="#permisos">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
+                        <i className="fa fa-unlock"></i>
                         <span>Permisos</span></a>
                     </li>
                 <li className="nav-item  ">
                     <a className="nav-link" href="#seguridad">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
+                        <i className="fa fa-lock"></i>
                         <span>Seguridad</span></a>
                     </li>
                      </ul>

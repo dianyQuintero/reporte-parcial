@@ -6,7 +6,6 @@ import Features from './Components/features.js';
 import Desingn from './Components/design.js';
 import Repositorio from './Components/repositorio.js';
 import Conectividad from './Components/conectividad.js';
-import CodigoEstatico from './Components/codigoEstatico.js';
 import Threads from './Components/threads.js';
 import Performance from './Components/performance.js';
 import Storage from './Components/storage.js';
@@ -35,8 +34,6 @@ export default class App extends React.Component{
           <Repositorio/>
           <br></br>  
           <Conectividad/>
-          <br></br>
-          <CodigoEstatico/>  
           <br></br>
           <Threads/>
           <br></br>

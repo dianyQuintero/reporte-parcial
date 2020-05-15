@@ -298,28 +298,33 @@ export default class Reporitorio extends React.Component{
             <div className="card-body">
                 <div className="row no-gutters align-items-center">
                 <div className="col-12">
-                    <div className="text-lg font-weight-bold text-primary text-uppercase mb-1">Repositorio</div>
+                    <div className="text-lg font-weight-bold text-primary text-uppercase mb-1">Repositorio y Análisis código estático</div>
                 </div>
                 </div>
                 <div className="row no-gutters align-items-center">
-                <CanvasJSChart options = {optionsCode} 
-                    /* onRef={ref => this.chart = ref} */
-                    />
-                </div>
-                    
-      
-                <br></br>
-                <div className="row no-gutters align-items-center">
-                <CanvasJSChart options = {optionsBlancos} 
-                    /* onRef={ref => this.chart = ref} */
-                    />
+                <CanvasJSChart options = {optionsCode} />
                 </div>
                 <br></br>
                 <div className="row no-gutters align-items-center">
-                <CanvasJSChart options = {optionsFiles} 
-                    /* onRef={ref => this.chart = ref} */
-                    />
+                <CanvasJSChart options = {optionsBlancos} />
                 </div>
+                <br></br>
+                <div className="row no-gutters align-items-center">
+                <CanvasJSChart options = {optionsFiles} />
+                </div>
+                <br></br>
+                <div className="row no-gutters align-items-center">
+                    <h5>Cuando revisamos los releases (Aproximadamente 202 al 13 de Mayo) 
+                        nos dimos cuenta de que en un principio la aplicación estuvo desarrollada en Java,
+                        sin embargo con el paso del tiempo se empezaron a añadir archivos Kotlin.
+                        Así que nos pareció interesante mostrar ese cambio gradual que tuvo la aplicación.
+                        Para eso se realizó un script que para cada release contara las líneas de código 
+                        de los lenguajes que había, el numero de archivos y líneas en blanco y que guardara
+                        la información en un archivo Json. El script lo corrimos el 13 de Mayo y obtuvimos 
+                        los datos necesarios para realizar las gráficas que se pueden comparar por lenguajes.
+                     </h5>
+                </div>
+                <div className="text-lg font-weight-bold text-primary mb-1">Análisis:</div>
             </div>
         </div>
         )

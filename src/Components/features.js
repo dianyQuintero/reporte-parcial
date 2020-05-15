@@ -13,7 +13,7 @@ export default class Features extends React.Component{
                     <div className="text-lg font-weight-bold text-primary text-uppercase mb-1">Features</div>
                 </div>
                 <div className="col-auto">
-                    <i className="fas fa-calendar fa-2x text-gray-300"></i>
+                    <i className="fa fa-play fa-2x text-gray-300"></i>
                 </div>
                 </div>
                 <br></br>
