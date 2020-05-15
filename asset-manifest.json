@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/reporte-parcial/static/css/main.d635bcb3.chunk.css",
-    "main.js": "/reporte-parcial/static/js/main.e4dd7a50.chunk.js",
-    "main.js.map": "/reporte-parcial/static/js/main.e4dd7a50.chunk.js.map",
+    "main.css": "/reporte-parcial/static/css/main.f5138b6c.chunk.css",
+    "main.js": "/reporte-parcial/static/js/main.a358476c.chunk.js",
+    "main.js.map": "/reporte-parcial/static/js/main.a358476c.chunk.js.map",
     "runtime-main.js": "/reporte-parcial/static/js/runtime-main.907d131c.js",
     "runtime-main.js.map": "/reporte-parcial/static/js/runtime-main.907d131c.js.map",
-    "static/js/2.fcf4bd86.chunk.js": "/reporte-parcial/static/js/2.fcf4bd86.chunk.js",
-    "static/js/2.fcf4bd86.chunk.js.map": "/reporte-parcial/static/js/2.fcf4bd86.chunk.js.map",
+    "static/js/2.9e000b31.chunk.js": "/reporte-parcial/static/js/2.9e000b31.chunk.js",
+    "static/js/2.9e000b31.chunk.js.map": "/reporte-parcial/static/js/2.9e000b31.chunk.js.map",
     "index.html": "/reporte-parcial/index.html",
-    "precache-manifest.3e53c0d5b4b474226fe72517272a1b27.js": "/reporte-parcial/precache-manifest.3e53c0d5b4b474226fe72517272a1b27.js",
+    "precache-manifest.5b0fff88dee53cc13253b5fa6eb6072c.js": "/reporte-parcial/precache-manifest.5b0fff88dee53cc13253b5fa6eb6072c.js",
     "service-worker.js": "/reporte-parcial/service-worker.js",
-    "static/css/main.d635bcb3.chunk.css.map": "/reporte-parcial/static/css/main.d635bcb3.chunk.css.map",
-    "static/js/2.fcf4bd86.chunk.js.LICENSE.txt": "/reporte-parcial/static/js/2.fcf4bd86.chunk.js.LICENSE.txt",
+    "static/css/main.f5138b6c.chunk.css.map": "/reporte-parcial/static/css/main.f5138b6c.chunk.css.map",
+    "static/js/2.9e000b31.chunk.js.LICENSE.txt": "/reporte-parcial/static/js/2.9e000b31.chunk.js.LICENSE.txt",
     "static/media/BOTON.jpg": "/reporte-parcial/static/media/BOTON.bdfbf739.jpg",
     "static/media/BOTONL.jpg": "/reporte-parcial/static/media/BOTONL.b5e1498b.jpg",
     "static/media/CarpetasDARK.jpg": "/reporte-parcial/static/media/CarpetasDARK.76047956.jpg",
     "static/media/CarpetasLIGHT.jpg": "/reporte-parcial/static/media/CarpetasLIGHT.5a9a52fe.jpg",
+    "static/media/Caso1.gif": "/reporte-parcial/static/media/Caso1.cdc0de92.gif",
+    "static/media/Caso2.gif": "/reporte-parcial/static/media/Caso2.e5c7c6ed.gif",
+    "static/media/Caso3.gif": "/reporte-parcial/static/media/Caso3.db2be87f.gif",
+    "static/media/bateria.jpg": "/reporte-parcial/static/media/bateria.c08470e7.jpg",
     "static/media/bloqueo.gif": "/reporte-parcial/static/media/bloqueo.131566ef.gif",
     "static/media/correctleng.jpg": "/reporte-parcial/static/media/correctleng.92297efc.jpg",
     "static/media/darkPalette.png": "/reporte-parcial/static/media/darkPalette.df86aa17.png",
@@ -36,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.907d131c.js",
-    "static/js/2.fcf4bd86.chunk.js",
-    "static/css/main.d635bcb3.chunk.css",
-    "static/js/main.e4dd7a50.chunk.js"
+    "static/js/2.9e000b31.chunk.js",
+    "static/css/main.f5138b6c.chunk.css",
+    "static/js/main.a358476c.chunk.js"
   ]
 }
