@@ -99,6 +99,7 @@ export default class Reporitorio extends React.Component{
         
         const optionsCode = {
             animationEnabled: true,
+            theme: "light2",
             showInLegend:true,
             title:{
                 text: "Líneas de Código por Lenguaje"
@@ -121,6 +122,9 @@ export default class Reporitorio extends React.Component{
                 title: "Número de lineas",
                 includeZero: true
             },
+            axisX:{
+                labelAngle: 50,
+              },
             toolTip: {
                 shared: true
             },
@@ -159,6 +163,7 @@ export default class Reporitorio extends React.Component{
 
             const optionsBlancos = {
                 animationEnabled: true,	
+                theme: "light2",
                 showInLegend:true,
                 title:{
                     text: "Líneas de Código en blanco por Lenguaje"
@@ -181,6 +186,9 @@ export default class Reporitorio extends React.Component{
                     title: "Número de lineas",
                     includeZero: true
                 },
+                axisX:{
+                    labelAngle: 50,
+                  },
                 toolTip: {
                     shared: true
                 },
@@ -219,6 +227,7 @@ export default class Reporitorio extends React.Component{
 
         const optionsFiles = {
             animationEnabled: true,
+            theme: "light2",
             showInLegend:true,	
             title:{
                 text: "Archivos por Lenguaje"
@@ -241,6 +250,9 @@ export default class Reporitorio extends React.Component{
                 title: "Número de archivos",
                 includeZero: true
             },
+            axisX:{
+                labelAngle: 50,
+              },
             toolTip: {
                 shared: true
             },
@@ -286,23 +298,18 @@ export default class Reporitorio extends React.Component{
                     <div className="text-lg font-weight-bold text-primary text-uppercase mb-1">Repositorio</div>
                 </div>
                 </div>
-                <div className="row no-gutters align-items-center">
                     <CanvasJSChart options = {optionsCode} 
                     /* onRef={ref => this.chart = ref} */
                     />
-                </div>
+      
                 <br></br>
-                <div className="row no-gutters align-items-center">
                     <CanvasJSChart options = {optionsBlancos} 
                     /* onRef={ref => this.chart = ref} */
                     />
-                </div>
                 <br></br>
-                <div className="row no-gutters align-items-center">
                     <CanvasJSChart options = {optionsFiles} 
                     /* onRef={ref => this.chart = ref} */
                     />
-                </div>
             </div>
         </div>
         )
