@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/imgs/Logo.png'
 
 
 
@@ -24,7 +25,7 @@ export default class Descripcion extends React.Component{
                     </h5>
                 </div>
                 <div className="col-3">
-                    
+                    <img src={logo}  className="img-fluid" alt="versionesStyles"/>                 
                 </div>
                 </div>
             </div>
