@@ -1,13 +1,16 @@
 import React from 'react';
 import permiso1 from '../assets/imgs/permiso1.jpg';
 import permiso2 from '../assets/imgs/permiso2.jpg';
+import permiso3 from '../assets/imgs/permisos.PNG';
+import permiso4 from '../assets/imgs/permisos2.PNG';
+
 
 
 
 export default class Permisos extends React.Component{
     render(){
         return(
-            <div className="card  shadow h-100 py-2" id="Seguridad">
+            <div className="card  shadow h-100 py-2" id="seguridad">
             <div className="card-body">
                 <div className="row no-gutters align-items-center">
                 <div className="col-12">
@@ -93,8 +96,15 @@ export default class Permisos extends React.Component{
                             </div>
                     </div>
                 </div>
-                
                 </div>
+                </div>
+                <br></br>
+                <div className="row no-gutters align-items-center">
+                <img src={permiso3}   style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }}  className="img-fluid" alt="versionesStyles"/>   
+
+                <img src={permiso4}   style={{"display": "block", "margin-top": 20 +"px","margin-left": "auto", "margin-right": "auto" }}  className="img-fluid" alt="versionesStyles"/>   
+
+
                 </div>
                 <div className="text-lg font-weight-bold text-primary mb-1">Boletines de Seguridad</div>
                 <br></br>
@@ -116,6 +126,8 @@ export default class Permisos extends React.Component{
                         </h5>
                         <h5 align="justify" > Se informó que problema fue solucionado para el release 3.0.8.
                         </h5>
+                        <h5 align="justify" >Más información</h5>&nbsp;
+                     <a href="https://www.videolan.org/security/sb-vlc308.html" > <h5>aquí.</h5> </a>
                     </div>
                     <div className="col-1"></div>
 
@@ -140,6 +152,8 @@ export default class Permisos extends React.Component{
                     </h5>
                     <h5 align="justify" > Se informó que problema fue solucionado para el release 3.0.9.
                     </h5>
+                    <h5 align="justify" >Más información</h5>&nbsp;
+                     <a href="https://www.videolan.org/security/sb-vlc309.html" > <h5>aquí.</h5> </a>
                 </div>
                     </div>
                     </div>

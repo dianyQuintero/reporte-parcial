@@ -3,6 +3,7 @@ import caso1 from '../assets/imgs/Caso1.gif';
 import caso2 from '../assets/imgs/Caso2.gif';
 import caso3 from '../assets/imgs/Caso3.gif';
 import bateria from '../assets/imgs/bateria.jpg';
+import conectividad from '../assets/imgs/conectividad.jpeg';
 
 
 
@@ -18,8 +19,12 @@ export default class Conectividad extends React.Component{
                 </div>
                 </div>
                 <div className="row no-gutters align-items-center">
-                    <h5 align="justify" > Realizamos 3 escenarios de conectividad para ver cómo los manejaba la applicacion en cada caso:
-                    </h5>
+                <h5 align="justify" > La verificación del estado de conectividad es manejado por un BoradcastReceiver
+                que además de verificar si hay conexión a Wifi o Datos también buscan si es posible navegar en la red lan local.</h5>
+                <br></br>
+                <img src={conectividad}   style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }}  className="img-fluid" alt="versionesStyles"/>   
+                    
+                <h5 align="justify" > Realizamos 3 escenarios de conectividad para ver cómo los manejaba la applicacion en cada caso:</h5>
                     <ul> 
                         <li>
                             <h5>El primer escenario muestra que si la aplicación
@@ -45,31 +50,31 @@ export default class Conectividad extends React.Component{
                     </ul>
                 </div>
                 <div className="row no-gutters align-items-center">
-                    <div className="col-3">
+                    <div className="col-6">
                         <div className="card py-2">
                             <div className="card-body">
                                 <img src={caso1}  className="img-fluid" alt="versionesStyles"/>   
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-6">
                         <div className="card py-2">
                             <div className="card-body">
                                 <img src={caso2}  className="img-fluid" alt="versionesStyles"/>                 
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-6">
                         <div className="card py-2">
                             <div className="card-body">
                                 <img src={caso3}  className="img-fluid" alt="versionesStyles"/>                 
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-6">
                         <div className="card py-2">
                             <div className="card-body">                                
-                                <img src={bateria}  style={ {height: 335+ 'px'}}  className="img-fluid" alt="versionesStyles"/>   
+                                <img src={bateria}  style={ {height: 683+ 'px'}}  className="img-fluid" alt="versionesStyles"/>   
                             </div>
                         </div>
                     </div>

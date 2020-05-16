@@ -20,12 +20,12 @@ export default class Threads extends React.Component{
                     features de la app:</h5>
                 <br></br>
                 
-                        <iframe  style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/6LMcPG3iuHs" frameborder="0" 
+                        <iframe title="video1" style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/6LMcPG3iuHs" frameborder="0" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <br></br>
 
 
-                        <iframe style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }}  width="560" height="315" src="https://www.youtube.com/embed/y1RQkd5rHOo" frameborder="0" 
+                        <iframe title="video2" style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }}  width="560" height="315" src="https://www.youtube.com/embed/y1RQkd5rHOo" frameborder="0" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
