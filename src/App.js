@@ -9,7 +9,6 @@ import Conectividad from './Components/conectividad.js';
 import Threads from './Components/threads.js';
 import Performance from './Components/performance.js';
 import Storage from './Components/storage.js';
-import Cache from './Components/cache.js';
 import Seguridad from './Components/seguridad.js';
 
 
@@ -39,8 +38,6 @@ export default class App extends React.Component{
           <Performance/>
           <br></br>
           <Storage/>
-          <br></br>
-          <Cache/>
           <br></br>
           <Seguridad/>
           <br></br>
