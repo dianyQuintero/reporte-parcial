@@ -99,7 +99,7 @@ export default class Permisos extends React.Component{
                 <div className="text-lg font-weight-bold text-primary mb-1">Boletines de Seguridad</div>
                 <br></br>
                 <h5 align="justify" > En lo referente a problemas con la seguridad de la aplicación,
-                encontramos 2 boletines solucionados que corresponden a las versiones 3.0.7.1 y 3.0.0 - 3.0.8
+                encontramos 2 boletines solucionados que corresponden a las versiones 3.0.7.1 y 3.0.0 - 3.0.8.
                 A continuación los detallamos:
                 </h5>
                 <div className="card py-2">
