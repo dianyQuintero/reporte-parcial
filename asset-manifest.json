@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reporte-parcial/static/css/main.64948450.chunk.css",
-    "main.js": "/reporte-parcial/static/js/main.0baf2ff0.chunk.js",
-    "main.js.map": "/reporte-parcial/static/js/main.0baf2ff0.chunk.js.map",
+    "main.css": "/reporte-parcial/static/css/main.3db22fd6.chunk.css",
+    "main.js": "/reporte-parcial/static/js/main.727e7936.chunk.js",
+    "main.js.map": "/reporte-parcial/static/js/main.727e7936.chunk.js.map",
     "runtime-main.js": "/reporte-parcial/static/js/runtime-main.907d131c.js",
     "runtime-main.js.map": "/reporte-parcial/static/js/runtime-main.907d131c.js.map",
-    "static/js/2.7d138e6c.chunk.js": "/reporte-parcial/static/js/2.7d138e6c.chunk.js",
-    "static/js/2.7d138e6c.chunk.js.map": "/reporte-parcial/static/js/2.7d138e6c.chunk.js.map",
+    "static/js/2.aea408d8.chunk.js": "/reporte-parcial/static/js/2.aea408d8.chunk.js",
+    "static/js/2.aea408d8.chunk.js.map": "/reporte-parcial/static/js/2.aea408d8.chunk.js.map",
     "index.html": "/reporte-parcial/index.html",
-    "precache-manifest.840415b7bb4795b4e92b1d8f35e80c30.js": "/reporte-parcial/precache-manifest.840415b7bb4795b4e92b1d8f35e80c30.js",
+    "precache-manifest.321a89f853fec9b6cabfd06ec6f539b2.js": "/reporte-parcial/precache-manifest.321a89f853fec9b6cabfd06ec6f539b2.js",
     "service-worker.js": "/reporte-parcial/service-worker.js",
-    "static/css/main.64948450.chunk.css.map": "/reporte-parcial/static/css/main.64948450.chunk.css.map",
-    "static/js/2.7d138e6c.chunk.js.LICENSE.txt": "/reporte-parcial/static/js/2.7d138e6c.chunk.js.LICENSE.txt",
+    "static/css/main.3db22fd6.chunk.css.map": "/reporte-parcial/static/css/main.3db22fd6.chunk.css.map",
+    "static/js/2.aea408d8.chunk.js.LICENSE.txt": "/reporte-parcial/static/js/2.aea408d8.chunk.js.LICENSE.txt",
     "static/media/BOTON.jpg": "/reporte-parcial/static/media/BOTON.bdfbf739.jpg",
     "static/media/BOTONL.jpg": "/reporte-parcial/static/media/BOTONL.b5e1498b.jpg",
     "static/media/CarpetasDARK.jpg": "/reporte-parcial/static/media/CarpetasDARK.76047956.jpg",
@@ -22,6 +22,7 @@
     "static/media/Logo.png": "/reporte-parcial/static/media/Logo.e9f38d14.png",
     "static/media/bateria.jpg": "/reporte-parcial/static/media/bateria.c08470e7.jpg",
     "static/media/bloqueo.gif": "/reporte-parcial/static/media/bloqueo.131566ef.gif",
+    "static/media/conectividad.jpeg": "/reporte-parcial/static/media/conectividad.b2bc2ee1.jpeg",
     "static/media/correctleng.jpg": "/reporte-parcial/static/media/correctleng.92297efc.jpg",
     "static/media/darkPalette.png": "/reporte-parcial/static/media/darkPalette.df86aa17.png",
     "static/media/fastForwardPc.gif": "/reporte-parcial/static/media/fastForwardPc.68aa2a73.gif",
@@ -37,6 +38,8 @@
     "static/media/lightPalette.png": "/reporte-parcial/static/media/lightPalette.43d7b215.png",
     "static/media/permiso1.jpg": "/reporte-parcial/static/media/permiso1.49d1893d.jpg",
     "static/media/permiso2.jpg": "/reporte-parcial/static/media/permiso2.55a9bc2b.jpg",
+    "static/media/permisos.PNG": "/reporte-parcial/static/media/permisos.25a766f1.PNG",
+    "static/media/permisos2.PNG": "/reporte-parcial/static/media/permisos2.851470ad.PNG",
     "static/media/vlcApp.jpg": "/reporte-parcial/static/media/vlcApp.1dae8dc3.jpg",
     "static/media/vlcPC.png": "/reporte-parcial/static/media/vlcPC.bdd53dab.png",
     "static/media/volumenPc.gif": "/reporte-parcial/static/media/volumenPc.22bcd7e3.gif",
@@ -44,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.907d131c.js",
-    "static/js/2.7d138e6c.chunk.js",
-    "static/css/main.64948450.chunk.css",
-    "static/js/main.0baf2ff0.chunk.js"
+    "static/js/2.aea408d8.chunk.js",
+    "static/css/main.3db22fd6.chunk.css",
+    "static/js/main.727e7936.chunk.js"
   ]
 }
