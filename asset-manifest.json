@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reporte-parcial/static/css/main.3db22fd6.chunk.css",
-    "main.js": "/reporte-parcial/static/js/main.fd4d3ce6.chunk.js",
-    "main.js.map": "/reporte-parcial/static/js/main.fd4d3ce6.chunk.js.map",
+    "main.css": "/reporte-parcial/static/css/main.64948450.chunk.css",
+    "main.js": "/reporte-parcial/static/js/main.112850e2.chunk.js",
+    "main.js.map": "/reporte-parcial/static/js/main.112850e2.chunk.js.map",
     "runtime-main.js": "/reporte-parcial/static/js/runtime-main.907d131c.js",
     "runtime-main.js.map": "/reporte-parcial/static/js/runtime-main.907d131c.js.map",
-    "static/js/2.cb47f3ab.chunk.js": "/reporte-parcial/static/js/2.cb47f3ab.chunk.js",
-    "static/js/2.cb47f3ab.chunk.js.map": "/reporte-parcial/static/js/2.cb47f3ab.chunk.js.map",
+    "static/js/2.7d138e6c.chunk.js": "/reporte-parcial/static/js/2.7d138e6c.chunk.js",
+    "static/js/2.7d138e6c.chunk.js.map": "/reporte-parcial/static/js/2.7d138e6c.chunk.js.map",
     "index.html": "/reporte-parcial/index.html",
-    "precache-manifest.e49a011b52bade440548c27a8fb7a664.js": "/reporte-parcial/precache-manifest.e49a011b52bade440548c27a8fb7a664.js",
+    "precache-manifest.d3d09ebb3f1f3e28c1a9417895b8e9ce.js": "/reporte-parcial/precache-manifest.d3d09ebb3f1f3e28c1a9417895b8e9ce.js",
     "service-worker.js": "/reporte-parcial/service-worker.js",
-    "static/css/main.3db22fd6.chunk.css.map": "/reporte-parcial/static/css/main.3db22fd6.chunk.css.map",
-    "static/js/2.cb47f3ab.chunk.js.LICENSE.txt": "/reporte-parcial/static/js/2.cb47f3ab.chunk.js.LICENSE.txt",
+    "static/css/main.64948450.chunk.css.map": "/reporte-parcial/static/css/main.64948450.chunk.css.map",
+    "static/js/2.7d138e6c.chunk.js.LICENSE.txt": "/reporte-parcial/static/js/2.7d138e6c.chunk.js.LICENSE.txt",
     "static/media/BOTON.jpg": "/reporte-parcial/static/media/BOTON.bdfbf739.jpg",
     "static/media/BOTONL.jpg": "/reporte-parcial/static/media/BOTONL.b5e1498b.jpg",
     "static/media/CarpetasDARK.jpg": "/reporte-parcial/static/media/CarpetasDARK.76047956.jpg",
@@ -33,6 +33,7 @@
     "static/media/img2Dark.jpg": "/reporte-parcial/static/media/img2Dark.96b9db90.jpg",
     "static/media/img2Light.jpg": "/reporte-parcial/static/media/img2Light.990ea370.jpg",
     "static/media/incorrectleng.PNG": "/reporte-parcial/static/media/incorrectleng.b43a4a02.PNG",
+    "static/media/libvlc.png": "/reporte-parcial/static/media/libvlc.33180a47.png",
     "static/media/lightPalette.png": "/reporte-parcial/static/media/lightPalette.43d7b215.png",
     "static/media/permiso1.jpg": "/reporte-parcial/static/media/permiso1.49d1893d.jpg",
     "static/media/permiso2.jpg": "/reporte-parcial/static/media/permiso2.55a9bc2b.jpg",
@@ -43,8 +44,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.907d131c.js",
-    "static/js/2.cb47f3ab.chunk.js",
-    "static/css/main.3db22fd6.chunk.css",
-    "static/js/main.fd4d3ce6.chunk.js"
+    "static/js/2.7d138e6c.chunk.js",
+    "static/css/main.64948450.chunk.css",
+    "static/js/main.112850e2.chunk.js"
   ]
 }
