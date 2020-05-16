@@ -27,6 +27,14 @@ export default class Performance extends React.Component{
                 <iframe title="video2" style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }} width="840" height="472" src="https://www.youtube.com/embed/Vr_pcWLIoAE"
                  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
                 </div>
+                <br></br>
+                <div className="row no-gutters align-items-center">
+                <div className="col-12">
+                    <h5> Adicionalmente, nos parece importante mencionar que se da bastante uso de los findViewById().
+                        En una de las clases principales VideoPlayerActivity.kt se repite 23 veces.
+                    </h5>
+                </div>
+                </div>
             </div>
         </div>
         )

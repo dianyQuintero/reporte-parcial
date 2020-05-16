@@ -44,7 +44,14 @@ export default class Design extends React.Component{
                 <div className="row no-gutters align-items-center">
                 <div className="col-6">
                     <h5 align="justify">No todas las versiones de Android usan el mismo archivo de estilos, 
-                        este archivo se le es asignado dependiendo del rango del nivel del API en el que se encuentre.</h5>
+                        este archivo se le es asignado dependiendo del rango del nivel del API en el que se encuentre.
+                        Por ejemplo a un dispositivo con API 26 se le aplicarian los estilos del archivo v23,
+                        estos estilos se aplican a views. Además hay un archivo parent del que todos 
+                        heredan los atributos del xml que aparece ahí. Más información &nbsp;
+                        <a href="https://developer.android.com/guide/topics/ui/look-and-feel/themes#Versions">
+                            aquí.
+                        </a> </h5>
+                        
                 </div>
                 <div className="col-6">
                     <img src={versionesStyles} className="rounded mx-auto d-block" alt="versionesStyles"/>               

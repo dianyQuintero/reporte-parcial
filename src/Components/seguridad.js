@@ -126,8 +126,8 @@ export default class Permisos extends React.Component{
                         </h5>
                         <h5 align="justify" > Se informó que problema fue solucionado para el release 3.0.8.
                         </h5>
-                        <h5 align="justify" >Más información</h5>&nbsp;
-                     <a href="https://www.videolan.org/security/sb-vlc308.html" > <h5>aquí.</h5> </a>
+                        <h5 align="justify" >Más información &nbsp; <a href="https://www.videolan.org/security/sb-vlc308.html" > aquí, </a></h5>
+                     
                     </div>
                     <div className="col-1"></div>
 
@@ -152,8 +152,8 @@ export default class Permisos extends React.Component{
                     </h5>
                     <h5 align="justify" > Se informó que problema fue solucionado para el release 3.0.9.
                     </h5>
-                    <h5 align="justify" >Más información</h5>&nbsp;
-                     <a href="https://www.videolan.org/security/sb-vlc309.html" > <h5>aquí.</h5> </a>
+                    <h5 align="justify" >Más información &nbsp;<a href="https://www.videolan.org/security/sb-vlc309.html" > aquí. </a></h5>
+                     
                 </div>
                     </div>
                     </div>
