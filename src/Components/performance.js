@@ -16,7 +16,7 @@ export default class Performance extends React.Component{
                 </div>
                 <br></br>
                 <div> 
-                <iframe title="video" style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }} width="560" height="315" src="https://www.youtube.com/embed/4NJYC3Vs9yI"
+                <iframe title="video" style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }} width="840" height="472" src="https://www.youtube.com/embed/4NJYC3Vs9yI"
                  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
                 </div>
             </div>

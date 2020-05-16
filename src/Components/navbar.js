@@ -50,11 +50,6 @@ export default class Navbar extends React.Component{
                         <span>Storage y Manejo de Caché  </span></a>
                     </li>
                 <li className="nav-item  ">
-                    <a className="nav-link" href="#permisos">
-                        <i className="fa fa-unlock"></i>
-                        <span>Permisos</span></a>
-                    </li>
-                <li className="nav-item  ">
                     <a className="nav-link" href="#seguridad">
                         <i className="fa fa-lock"></i>
                         <span>Seguridad</span></a>

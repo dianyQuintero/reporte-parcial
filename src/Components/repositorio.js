@@ -1,6 +1,7 @@
 import React from 'react';
 import json from '../assets/files/data.json'
 import CanvasJSReact from './canvasjs.react';
+import lib from '../assets/imgs/libvlc.png';
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var blanksJava=[];
 var codeJava=[];
@@ -308,7 +309,7 @@ export default class Reporitorio extends React.Component{
                 </div>
                 <br></br>
                 <div className="row no-gutters align-items-center">
-                    <h5>Cuando revisamos los releases (Aproximadamente 202 al 13 de Mayo) 
+                    <h5 align="justify">Cuando revisamos los releases (Aproximadamente 202 al 13 de Mayo) 
                         nos dimos cuenta de que en un principio la aplicación estuvo desarrollada en Java,
                         sin embargo con el paso del tiempo se empezaron a añadir archivos Kotlin.
                         Así que nos pareció interesante mostrar ese cambio gradual que tuvo la aplicación.
@@ -318,10 +319,9 @@ export default class Reporitorio extends React.Component{
                         los datos necesarios para realizar las gráficas que se pueden comparar por lenguajes.
                      </h5>
                      <h5>El script se encuentra en el siguiente</h5>&nbsp;
-                     <a href="#" > <h5>enlace.</h5> </a>
+                     <a href="https://github.com/JuanOrtega10/ScriptCLOCbyReleases" > <h5>enlace.</h5> </a>
                 </div>
                 <div className="text-lg font-weight-bold text-primary mb-1">Análisis:</div>
-                <br></br>
                 <div className="row no-gutters align-items-center">
                 <div className="col-12">
                 <h5>Estructura del proyecto:</h5>
@@ -341,13 +341,40 @@ export default class Reporitorio extends React.Component{
                     </ul>
                     <h5 align="justify" >Como se puede apreciar en la gráfica que compara el número de archivos, 
                     en los ultimos releases predominan los archivos Kotlin. Se puede ver el crecimiento de estos 
-                    a partir de la versión 3 en contraste se evidencia la disminucín de los archivos Java, 
-                    que en un punto estuvieron en 260 y ahora no hay más de 90. Revisamos cuáles archivos son 
-                    los que no se cambiaron a Kotlin, notamos que los archivos Java se encuentran distribuidos 
-                    en su mayoría en las carpetas de Extension-api y Medialibrary, dentro del código fuente de 
-                    la app solo existen 4 archivos correspondientes a extensiones.(JUSTIFICAR ESO). 
-                    Adicionalmente, en las 3 gráficas se observa que los archivos C/C++ Header tuvieron
-                    una considerable disminucióon también cuando se empezó a implementar Kotlin en el proyecto.</h5>
+                    a partir de la versión 3 y en contraste se evidencia la disminucíon de los archivos Java, 
+                    que en un punto estuvieron en 260 y ahora no hay más de 90. De manera similar ocurre con
+                    los archivos C/C++ Header, los cuales tuvieron también una considerable disminución 
+                    cuando se empezó a implementar Kotlin en el proyecto. Cabe recalcar que si se buscan archivos
+                    Java en el explorador de archivos, se encontrarán alrededor de 800, sin embargo estos 
+                    corresponden casi en su totalidad a archivos generados al buildear la aplicación. Nuestro script
+                    no tiene en cuenta archivos de códico generado y por esto en la gráfica se observan las 
+                    cantidades que mencioamos enteriormente.</h5>
+                    
+                    <h5 align="justify" > Después del anterior análisis revisamos cuáles archivos son los que no se 
+                    cambiaron a Kotlin, notamos que los archivos Java se encuentran distribuidos 
+                    en 4 carpetas, a continuación se mencionan cuales son y las razones por las que creemos que no
+                    las convirtieron a Kotlin</h5> 
+                    <ul>
+                    <li>
+                        <h5>Extension-api: Debido a que en esta carpeta se encuentra el SDK que utilizan otras aplicaciones
+                            sus archivos deben estar en Java ya que si estuvieran en Kotlin se tendrían que convertir
+                            obligatoriamente.
+                        </h5>
+                    </li>
+                    <li>
+                        <h5>Medialibrary: Acá no hay archivos .kt porque se trata de cosas a bajo nivel</h5>
+                    </li>
+                    <li>
+                        <h5>LibVLC y la carpeta extensions dentro del codigo fuente de la app: Como LibVLC es la 
+                            librería de Android que incorpora el motor VLC, que ofrece muchas funciones multimedia, 
+                            creemos que todos sus archivos se encuentran en java porque debe ser muy demorado realizar
+                            el cambio. Con los archivos dentro del codigo fuente pasa algo similar a lo que pasa
+                            con los de Extension-api.</h5>
+                    </li>
+                    </ul>
+
+                    <img src={lib}  style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }}  className="img-fluid" alt="versionesStyles"/>   
+
                     </div>
                     </div>
             </div>
