@@ -97,9 +97,55 @@ export default class Permisos extends React.Component{
                 </div>
                 </div>
                 <div className="text-lg font-weight-bold text-primary mb-1">Boletines de Seguridad</div>
+                <br></br>
+                <h5 align="justify" > En lo referente a problemas con la seguridad de la aplicación,
+                encontramos 2 boletines solucionados que corresponden a las versiones 3.0.7.1 y 3.0.0 - 3.0.8
+                A continuación los detallamos:
+                </h5>
+                <div className="card py-2">
+                    <div className="card-body">
+                    <div className="row no-gutters align-items-center">
+                    <div className="col-5">
+                        <div className="text-lg font-weight-bold text-primary mb-1">3.0.7.1</div>
+                        <div className="text-lg text-primary mb-1">Problema</div>
+                        <h5 align="justify"> Un usuario remoto podría crear un archivo específicamente 
+                            diseñado que podría desencadenar problemas sobre desbordamientos del búfer</h5>
+                        <div className="text-lg text-primary mb-1">Impacto</div>
+                        <h5 align="justify" > Si hubiese tenido éxito, una tercera persona pudo haber provocado el bloqueo de la aplicación
+                            e incluso filtrar información del usuario. 
+                        </h5>
+                        <h5 align="justify" > Se informó que problema fue solucionado para el release 3.0.8.
+                        </h5>
+                    </div>
+                    <div className="col-1"></div>
 
+                <div className="col-6">
+                    <div className="text-lg font-weight-bold text-primary mb-1">3.0.0 - 3.0.8</div>
+                    <div className="text-lg text-primary mb-1">Problema</div>
+                    <h5>Un usuario remoto podría:</h5>
+                    <ul>
+                        <li>
+                            <h5>Crear un archivo de imagen diseñado que pueda desencadenar en una lectura fuera de los límites</h5>
+                        </li>
+                        <li>
+                            <h5>Enviar una solicitud específica al descubrimiento del servicio de microdns, 
+                            lo que podría desencadenar varios problemas de administración de memoria</h5>
+                        </li>
+                    </ul>
+                    <div className="text-lg text-primary mb-1">Impacto</div>
+                    <h5>
+                    El impacto hubiese sido el mismo que se menciona en el otro boletín. Adicionalmente, VLC en iOS 
+                    sufrío de un acceso a carpetas restringidas (función de código de acceso) 
+                    bajo la interfaz web sin ingresar el código de acceso.
+                    </h5>
+                    <h5 align="justify" > Se informó que problema fue solucionado para el release 3.0.9.
+                    </h5>
                 </div>
-            </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                </div>
         </div>
         )
     }
