@@ -10,6 +10,7 @@ import Threads from './Components/threads.js';
 import Performance from './Components/performance.js';
 import Storage from './Components/storage.js';
 import Seguridad from './Components/seguridad.js';
+import Arquitectura from './Components/arquitectura';
 
 
 export default class App extends React.Component{
@@ -29,6 +30,8 @@ export default class App extends React.Component{
           <br></br>  
           <Desingn/>
           <br></br>  
+          <Arquitectura/>
+          <br></br>
           <Repositorio/>
           <br></br>  
           <Conectividad/>

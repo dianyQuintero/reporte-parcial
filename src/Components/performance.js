@@ -29,10 +29,28 @@ export default class Performance extends React.Component{
                 </div>
                 <br></br>
                 <div className="row no-gutters align-items-center">
-                <div className="col-12">
-                    <h5> Adicionalmente, nos parece importante mencionar que se da bastante uso de los findViewById().
-                        En una de las clases principales VideoPlayerActivity.kt se repite 23 veces.
-                    </h5>
+                        <div className="card  shadow h-100 py-2">
+                         <div className="card-body">
+                        <div className="row no-gutters align-items-center">
+                        <div className="col-12">
+                            <div className="text-lg font-weight-bold text-primary mb-1">Mico-optimizaciones</div>
+                            
+                        </div>                
+                        </div>
+                        <div className="row">
+                        <div className="col-12">
+                            <ul>
+                                <li>
+                                    <h5 align="justify" > Encontramos que se hace bsatente uso de los findViewById(),
+                                    en una de las clases principales VideoPlayerActivity.kt se repite 23 veces y teniendo
+                                    en cuenta lo que vimos en clase recomendaríamos que se cambiaran por 
+                                    </h5>
+                                </li>
+                            </ul>
+                            </div>
+                    </div>
+                </div>
+              
                 </div>
                 </div>
             </div>

@@ -24,6 +24,11 @@ export default class Navbar extends React.Component{
                         <i className="fa fa-eye"></i>
                         <span>UI / UX Design </span></a>
                     </li>
+                    <li className="nav-item  ">
+                    <a className="nav-link" href="#arquitectura">
+                        <i className="fa fa-cubes"></i>
+                        <span>Arquitectura </span></a>
+                    </li>
                 <li className="nav-item  ">
                     <a className="nav-link" href="#repo">
                         <i className="fa fa-list"></i>

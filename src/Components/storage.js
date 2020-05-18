@@ -3,6 +3,9 @@ import cache from '../assets/imgs/cache.gif';
 import cache1 from '../assets/imgs/Cache1.PNG';
 import cache2 from '../assets/imgs/Cache2.PNG';
 import cache3 from '../assets/imgs/Cache3.PNG';
+import set from '../assets/imgs/settings.PNG';
+import sett from '../assets/imgs/settings2.PNG';
+
 
 
 
@@ -43,16 +46,31 @@ export default class Storage extends React.Component{
                 </div>
                 <br></br>
                 <div className="row no-gutters align-items-center">
-                <div className="col-6">
-                    <img style={{"display": "block", "margin-left": "auto", "margin-right": "auto", "width":403 +"px","height":47+ "px"}} src={cache1} id="fastForwardApp" className="img-thumbnail" alt="versionesStyles"/>   
-                    <br></br>
-                    <img style={{"display": "block", "margin-left": "auto", "margin-right": "auto", "width":368 +"px","height":157+ "px" }} src={cache3} id="fastForwardApp"  className="img-thumbnail" alt="versionesStyles"/>   
-                </div>
-                    <div className="col-6">
-                    <img style={{"display": "block", "margin-left": "auto", "margin-right": "auto", "width":432 +"px","height":139+ "px"}} src={cache2} id="fastForwardApp" className="img-thumbnail" alt="versionesStyles"/>   
-                    </div>
-                </div>
+                <div className="col-5">
+                            <div className="card shadow h-100 py-2"  >
+                                <div className="card-body">
+                                <h6 align="center" >Definición Settings</h6>
+                                <img style={{"display": "block", "margin-left": "auto", "margin-right": "auto", "width":358 +"px","height":38+ "px"}} src={set} id="fastForwardApp" className="img-fluid" alt="versionesStyles"/>   
+                                <br></br>
+                                <img style={{"display": "block", "margin-left": "auto", "margin-right": "auto", "width":281 +"px","height":51+ "px"}} src={sett} id="fastForwardApp" className="img-fluid" alt="versionesStyles"/>   
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-1"></div>
+                        <div className="col-6">
+                        <div className="card shadow h-100 py-2"  >
+                                <div className="card-body">
+                                <h6 align="center" >Operaciones get y put</h6>
+                                <img style={{"display": "block", "margin-left": "auto", "margin-right": "auto", "width":403 +"px","height":47+ "px"}} src={cache1} id="fastForwardApp" className="img-fluid" alt="versionesStyles"/>   
+                                <br></br>
+                                <img style={{"display": "block", "margin-left": "auto", "margin-right": "auto", "width":368 +"px","height":157+ "px" }} src={cache3} id="fastForwardApp"  className="img-fluid" alt="versionesStyles"/>                                      
+                                <br></br>
+                                <img style={{"display": "block", "margin-left": "auto", "margin-right": "auto", "width":432 +"px","height":139+ "px"}} src={cache2} id="fastForwardApp" className="img-fluid" alt="versionesStyles"/>   
 
+                                    </div>
+                            </div>
+                        </div>  
+                    </div>
             </div>
         </div>
         )

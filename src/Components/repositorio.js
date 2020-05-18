@@ -6,18 +6,23 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var blanksJava=[];
 var codeJava=[];
 var filesJava=[];
+var commentJava=[];
 var blanksKotlin=[];
 var codeKotlin=[];
 var filesKotlin=[];
+var commentKotlin=[];
 var blanksC=[];
 var codeC=[];
 var filesC=[];
+var commentC=[];
 var blanksC_=[];
 var codeC_=[];
 var filesC_=[];
+var commentC_=[];
 var blanksC_header=[];
 var codeC_header=[];
 var filesC_header=[];
+var commentC_header=[];
 var procesado = false;
 
 export default class Reporitorio extends React.Component{
@@ -38,7 +43,12 @@ export default class Reporitorio extends React.Component{
                 var archivosJava = 0;
                 var archivosC = 0;
                 var archivosC_ = 0;
-                var archivosC_header = 0;
+                var  archivosC_header = 0;
+                var  comKotlin = 0;
+                var  comJava = 0;
+                var  comC = 0;
+                var  comC_ = 0;
+                var  comC_header = 0;
 
                 value.Registro[0].lineas.forEach(line =>{
                     if(line.language === "C/C++ Header"){
@@ -46,47 +56,62 @@ export default class Reporitorio extends React.Component{
                         codC_header=line.code
                         blancosC_header = line.blank
                         archivosC_header= line.files
+                        comC_header = line.comment
                     }
                     if(line.language === "Java"){
                         //Asigno valores
                         codJava=line.code
                         blancosJava = line.blank
                         archivosJava = line.files
+                        comJava = line.comment
                     }
                     if(line.language === "C"){
                         //Asigno valores
                         codC = line.code
                         blancosC = line.blank
                         archivosC = line.files
+                        comC = line.comment
                     }
                     if(line.language === "C++"){
                         //Asigno valores
                         codC_=line.code
                         blancosC_ = line.blank
                         archivosC_ = line.files
+                        comC_ =line.comment
                     }
                     if(line.language === "Kotlin"){
                         //Asigno valores
                         codKotlin=line.code
                         blancosKotlin = line.blank
                         archivosKotlin = line.files
+                        comKotlin = line.comment
                     }
                 } )
                 blanksKotlin.push({"y":blancosKotlin, "label": value.Registro[0].tag});
                 filesKotlin.push({"y":archivosKotlin, "label": value.Registro[0].tag});
                 codeKotlin.push({"y":codKotlin, "label": value.Registro[0].tag})
+                commentKotlin.push({"y":comKotlin, "label": value.Registro[0].tag})
+
                 blanksC_.push({"y":blancosC_, "label": value.Registro[0].tag});
                 codeC_.push({"y":codC_, "label": value.Registro[0].tag});
                 filesC_.push({"y":archivosC_, "label": value.Registro[0].tag});
+                commentC_.push({"y":comC_, "label": value.Registro[0].tag})
+
                 blanksC.push({"y":blancosC, "label": value.Registro[0].tag});
                 codeC.push({"y":codC, "label": value.Registro[0].tag});
                 filesC.push({"y":archivosC, "label": value.Registro[0].tag});
+                commentC.push({"y":comC, "label": value.Registro[0].tag})
+
                 blanksJava.push({"y":blancosJava, "label": value.Registro[0].tag});
                 codeJava.push({"y":codJava, "label": value.Registro[0].tag});
                 filesJava.push({"y":archivosJava, "label": value.Registro[0].tag});
+                commentJava.push({"y":comJava, "label": value.Registro[0].tag})
+
                 blanksC_header.push({"y":blancosC_header, "label": value.Registro[0].tag});
                 codeC_header.push({"y":codC_header, "label": value.Registro[0].tag});
                 filesC_header.push({"y":archivosC_header, "label": value.Registro[0].tag});
+                commentC_header.push({"y":comC_header, "label": value.Registro[0].tag})
+
             })
         procesado =true;
         }
@@ -286,6 +311,71 @@ export default class Reporitorio extends React.Component{
             }
         ]
         }
+        const optionsComments = {
+            animationEnabled: true,
+            theme: "light2",
+            showInLegend:true,	
+            title:{
+                text: "Líneas de Código comentadas por Lenguaje"
+            },
+            legend: {
+                cursor: "pointer",
+                itemclick: function (e) {
+                    //console.log("legend click: " + e.dataPointIndex);
+                    //console.log(e);
+                    if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                        e.dataSeries.visible = false;
+                    } else {
+                        e.dataSeries.visible = true;
+                    }
+     
+                    e.chart.render();
+                }
+            },
+            axisY : {
+                title: "Número de archivos",
+                includeZero: true
+            },
+            axisX:{
+                labelAngle: 50,
+                labelFontSize: 10,
+              },
+            toolTip: {
+                shared: true
+            },
+            data: [{
+                type: "spline",
+                name: "Java",
+                showInLegend: true,
+                dataPoints: commentJava
+            },
+            {
+                type: "spline",
+                name: "C",
+                showInLegend: true,
+                dataPoints: commentC
+            },
+            {
+                type: "spline",
+                name: "C++",
+                showInLegend: true,
+                dataPoints: commentC_
+            },
+            {
+                type: "spline",
+                name: "Kotlin",
+                showInLegend: true,
+                dataPoints: commentKotlin
+            },
+            {
+                type: "spline",
+                name: "C/C++ Header",
+                showInLegend: true,
+                dataPoints: commentC_header
+            }
+        ]
+        }
+
 
             
         return(
@@ -301,6 +391,10 @@ export default class Reporitorio extends React.Component{
                 </div>
                 <br></br>
                 <div className="row no-gutters align-items-center">
+                <CanvasJSChart options = {optionsComments} />
+                </div>
+                <br></br>
+                <div className="row no-gutters align-items-center">
                 <CanvasJSChart options = {optionsBlancos} />
                 </div>
                 <br></br>
@@ -309,21 +403,20 @@ export default class Reporitorio extends React.Component{
                 </div>
                 <br></br>
                 <div className="row no-gutters align-items-center">
-                    <h5 align="justify">Cuando revisamos los releases (Aproximadamente 202 al 13 de Mayo) 
+                    <h5 align="justify">Cuando revisamos los releases (Aproximadamente 205 al 17 de Mayo) 
                         nos dimos cuenta de que en un principio la aplicación estuvo desarrollada en Java,
                         sin embargo con el paso del tiempo se empezaron a añadir archivos Kotlin.
                         Así que nos pareció interesante mostrar ese cambio gradual que tuvo la aplicación.
                         Para eso se realizó un script que para cada release contara las líneas de código 
                         de los lenguajes que había, el numero de archivos y líneas en blanco y que guardara
-                        la información en un archivo Json. El script lo corrimos el 13 de Mayo y obtuvimos 
-                        los datos necesarios para realizar las gráficas que se pueden comparar por lenguajes.
+                        la información en un archivo Json.
                      </h5>
                      <h5>El script se encuentra en el siguiente</h5>&nbsp;
                      <a href="https://github.com/JuanOrtega10/ScriptCLOCbyReleases" > <h5>enlace.</h5> </a>
                 </div>
                 <div className="text-lg font-weight-bold text-primary mb-1">Análisis:</div>
                 <div className="row no-gutters align-items-center">
-                <div className="col-12">
+                <div className="col-6">
                 <h5>Estructura del proyecto:</h5>
                 <ul> 
                     <li>
@@ -339,6 +432,11 @@ export default class Reporitorio extends React.Component{
                         <h5>Medialibrary: módulo de gradle Medialibrary.</h5>
                     </li>
                     </ul>
+                    </div>
+                    <div className="col-6">
+                    <iframe title="Estructura" width="366" height="668" src="https://www.youtube.com/embed/bYZ9fZpKD1s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div className="col-12">
                     <h5 align="justify" >Como se puede apreciar en la gráfica que compara el número de archivos, 
                     en los ultimos releases predominan los archivos Kotlin. Se puede ver el crecimiento de estos 
                     a partir de la versión 3 y en contraste se evidencia la disminucíon de los archivos Java, 

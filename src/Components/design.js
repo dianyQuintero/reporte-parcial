@@ -192,9 +192,11 @@ export default class Design extends React.Component{
                 <br></br>
                 <h5 align="justify" >La aplicación cuenta con una buena distribución del espacio y 
                 una interfaz intuitiva, sin embargo, encontramos algunos errores con las traducciones 
-                ya que en algunos componentes se realizaron de forma parcial.  Como se puede apreciar 
-                hay una inconsistencia entre los idiomas inglés y español, lo curioso es que 
-                la inconsistencia solo se vio en uno de los celulares en el que la probamos.</h5>
+                ya que en algunos componentes se realizaron de forma parcial.  Probamos el apk en 2 celulares
+                uno con el idioma en inglés y otro en español, en el primero todo salió bien, 
+                pues es el idioma original de la app, pero en el segundo se puede notar la inconsistencia
+                en el idioma de algunos campos tal vez porque no se tiene la traducción de éstos
+                y entonces la aplicación deja el valor por defecto.</h5>
                 </div>
                 <div className="row no-gutters align-items-center">
                 <div className="col-6">
@@ -288,6 +290,25 @@ export default class Design extends React.Component{
                         <div className="col-6">
                         <img src={bloqueo} id="fastForwardApp" className="img-fluid" alt="versionesStyles"/>   
                         </div>
+                    </div>
+                </div>
+                </div>
+                <div></div>
+                <br></br>
+                <div className="card py-2">
+                <div className="card-body">
+                <div className="row no-gutters align-items-center">
+                <div className="text-lg font-weight-bold text-primary mb-1">Análisis:</div>
+                    <h5 align="justify" >
+                            Los cambios en cuanto a UI y UX entre las plataformas de VLC para Android 
+                            y para Windows son necesarias y útiles. Esto debido a que en el caso de Android 
+                            para celulares se cuenta con una pantalla mucho más pequeña. Por ello tiene sentido 
+                            colocar muchos menos botones en la pantalla y más bien distribuirlos con menús y submenús. 
+                            Además de características propias de los smartphones como ser manejados principalmente por 
+                            medio de gestos táctiles y no por cursor. Allí encuentra sentido el feature de poder ajustar 
+                            el volumen y brillo con swipes.  Estos cambios entre las plataformas tienen sentido en la medida 
+                            de que se garantiza una mejor experiencia de usuario. 
+                    </h5>
                     </div>
                 </div>
                 </div>
