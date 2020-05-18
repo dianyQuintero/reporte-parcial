@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b24a61b7225f2b26516dab0d302577ff",
+    "revision": "856b969e539c1553dc9cf6dc2545e80f",
     "url": "/reporte-parcial/index.html"
   },
   {
-    "revision": "ce3d63dcc68eac1447f3",
+    "revision": "9406141cd31a3e3cf96c",
     "url": "/reporte-parcial/static/css/main.055a20e4.chunk.css"
   },
   {
-    "revision": "a463e3d091ee0b66de52",
-    "url": "/reporte-parcial/static/js/2.5d43847a.chunk.js"
+    "revision": "cb5ffbd899b95081362f",
+    "url": "/reporte-parcial/static/js/2.c3b6ee76.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/reporte-parcial/static/js/2.5d43847a.chunk.js.LICENSE.txt"
+    "url": "/reporte-parcial/static/js/2.c3b6ee76.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce3d63dcc68eac1447f3",
-    "url": "/reporte-parcial/static/js/main.bca84559.chunk.js"
+    "revision": "9406141cd31a3e3cf96c",
+    "url": "/reporte-parcial/static/js/main.850ab8d7.chunk.js"
   },
   {
     "revision": "3efebf9df2386365768f",
     "url": "/reporte-parcial/static/js/runtime-main.907d131c.js"
+  },
+  {
+    "revision": "784e71c6b0711b0c4914a2817186f25f",
+    "url": "/reporte-parcial/static/media/309.784e71c6.jpeg"
+  },
+  {
+    "revision": "0b83661433b1ad750288a09081362d4f",
+    "url": "/reporte-parcial/static/media/3092.0b836614.jpeg"
   },
   {
     "revision": "bdfbf739f04aa40a42f1682e1d8f9f09",
@@ -112,6 +120,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reporte-parcial/static/media/cache.9b51d0a5.gif"
   },
   {
+    "revision": "319373f0d4b52a2f2733dc478ed52fb1",
+    "url": "/reporte-parcial/static/media/commit.319373f0.jpeg"
+  },
+  {
     "revision": "b2bc2ee1eb21478ace81226965c75032",
     "url": "/reporte-parcial/static/media/conectividad.b2bc2ee1.jpeg"
   },
@@ -122,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "df86aa17d3236d999bba68e951fe3602",
     "url": "/reporte-parcial/static/media/darkPalette.df86aa17.png"
+  },
+  {
+    "revision": "d683f43f11c52ca98cfb0e8db0baa0a9",
+    "url": "/reporte-parcial/static/media/diff.d683f43f.png"
   },
   {
     "revision": "b3cffdbe7ec49813d9101785973cb4bc",
