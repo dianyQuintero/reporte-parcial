@@ -36,7 +36,7 @@ export default class Performance extends React.Component{
                 </div>
                 <br></br>
                 <div className="row no-gutters align-items-center">
-                        <div className="card  shadow h-100 py-2">
+                        <div className="card py-2">
                          <div className="card-body">
                         <div className="row no-gutters align-items-center">
                         <div className="col-12">
@@ -64,7 +64,7 @@ export default class Performance extends React.Component{
                             </ul>
                             </div>
                             <div className="col-12">
-                            <div className="card  py-2"  >
+                            <div className="card  shadow h-100  py-2"  >
                                 <div className="card-body">
                                 <div className="row">
                                     <div className="col-4">
@@ -81,7 +81,7 @@ export default class Performance extends React.Component{
                             </div>
                         </div>
                         <div className="col-12">
-                            <div className="card  py-2"  >
+                            <div className="card  shadow h-100  py-2"  >
                                 <div className="card-body">
                                 <div className="row">
                                     <div className="col-4">

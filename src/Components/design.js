@@ -293,11 +293,9 @@ export default class Design extends React.Component{
                     </div>
                 </div>
                 </div>
-                <div></div>
                 <br></br>
                 <div className="card py-2">
                 <div className="card-body">
-                <div className="row no-gutters align-items-center">
                 <div className="text-lg font-weight-bold text-primary mb-1">Análisis:</div>
                     <h5 align="justify" >
                             Los cambios en cuanto a UI y UX entre las plataformas de VLC para Android 
@@ -307,10 +305,8 @@ export default class Design extends React.Component{
                             Además de características propias de los smartphones como ser manejados principalmente por 
                             medio de gestos táctiles y no por cursor. Allí encuentra sentido el feature de poder ajustar 
                             el volumen y brillo con swipes.  Estos cambios entre las plataformas tienen sentido en la medida 
-                            de que se garantiza una mejor experiencia de usuario. 
-                    </h5>
+                            de que se garantiza una mejor experiencia de usuario. </h5>
                     </div>
-                </div>
                 </div>
             </div>
         </div>

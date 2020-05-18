@@ -2,6 +2,10 @@ import React from 'react';
 import json from '../assets/files/data.json'
 import CanvasJSReact from './canvasjs.react';
 import lib from '../assets/imgs/libvlc.png';
+import diff from '../assets/imgs/diff.png';
+import v309 from '../assets/imgs/309.jpeg';
+import v3092 from '../assets/imgs/3092.jpeg';
+import commit from '../assets/imgs/commit.jpeg';
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var blanksJava=[];
 var codeJava=[];
@@ -440,14 +444,55 @@ export default class Reporitorio extends React.Component{
                     <h5 align="justify" >Como se puede apreciar en la gráfica que compara el número de archivos, 
                     en los ultimos releases predominan los archivos Kotlin. Se puede ver el crecimiento de estos 
                     a partir de la versión 3 y en contraste se evidencia la disminucíon de los archivos Java, 
-                    que en un punto estuvieron en 260 y ahora no hay más de 90. De manera similar ocurre con
-                    los archivos C/C++ Header, los cuales tuvieron también una considerable disminución 
-                    cuando se empezó a implementar Kotlin en el proyecto. Cabe recalcar que si se buscan archivos
+                    que en un punto estuvieron en 260 y ahora no hay más de 90.  Cabe recalcar que si se buscan archivos
                     Java en el explorador de archivos, se encontrarán alrededor de 800, sin embargo estos 
                     corresponden casi en su totalidad a archivos generados al buildear la aplicación. Nuestro script
                     no tiene en cuenta archivos de códico generado y por esto en la gráfica se observan las 
                     cantidades que mencioamos enteriormente.</h5>
-                    
+
+                    <h5 align="justify">La disminución mencionada anteriormente también ocurre con los archivos C/C++ Header.
+                        En la gráfica puede observarse que entre la versión 3.0.9 y 3.0.92 es cuando se da la 
+                        considerable caida de los archivos y líneas de código. Para tener más información sobre este cambio 
+                        realizamos el siguiente procedimiento 
+                    </h5>
+                    <ul>
+                        <li>
+                            <h5>Revisamos la estructura del proyecto los commits asociados a los 2 releases y notamos que
+                                había cambiado.
+                            </h5>
+                        </li>
+                        <div className="row">
+                            <div className="col-6">
+                                <h6 align="center"> v 3.0.9 </h6>
+                                <img src={v309}  style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }}  className="img-fluid" alt="versionesStyles"/>   
+                            </div>
+                            <div className="col-6">
+                                <h6 align="center"> v 3.0.92 </h6>
+                                <img src={v3092}  style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }}  className="img-fluid" alt="versionesStyles"/>   
+                            </div>
+                        </div>
+                        <br></br>
+                        <li>
+                            <h5>Ejecutamos el siguiente comando entre los commits asociados a releases mencionados: git diff 693a9bd cf7934d.</h5>
+                        </li>
+                        <li>
+                            <h5>Obtuvimos el siguiente resultado y notamos que uno de los cambios entre las versiones fue
+                                la actualización del core de VLC. (En la última línea) </h5>
+                        </li>
+                        <br></br>
+                        <img src={diff}  style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }}  className="img-fluid" alt="versionesStyles"/>   
+                        <br></br>
+                        <li>
+                            <h5>Seguidamente se procedió a buscar manualmente el commit específico en el cual se 
+                                realizaron todas la eliminaciones.
+                            </h5>
+                        </li>
+                        <img src={commit}  style={{"display": "block", "margin-left": "auto", "margin-right": "auto" }}  className="img-fluid" alt="versionesStyles"/>   
+                    </ul>
+                    <h5>Concluimos que a lo largo del proyecto se fue cambiando el core de VLC por Kotlin o Java hasta que 
+                        se llegó al punto en el cual el que estaba en C/C++ quedó inútil y por esto fue eliminado.
+                    </h5>
+                    <br></br>
                     <h5 align="justify" > Después del anterior análisis revisamos cuáles archivos son los que no se 
                     cambiaron a Kotlin, notamos que los archivos Java se encuentran distribuidos 
                     en 4 carpetas, a continuación se mencionan cuales son y las razones por las que creemos que no
@@ -460,7 +505,7 @@ export default class Reporitorio extends React.Component{
                         </h5>
                     </li>
                     <li>
-                        <h5>Medialibrary: Acá no hay archivos .kt porque se trata de cosas a bajo nivel</h5>
+                        <h5>Medialibrary: Tiene una parte de la implementación del modelo de datos y está escrito en Java.</h5>
                     </li>
                     <li>
                         <h5>LibVLC y la carpeta extensions dentro del codigo fuente de la app: Como LibVLC es la 

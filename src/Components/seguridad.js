@@ -158,6 +158,28 @@ export default class Permisos extends React.Component{
                     </div>
                     </div>
                 </div>
+                <br></br>
+                <div className="card shadow h-100 py-2">
+                <div className="card-body">
+                <div className="row no-gutters align-items-center">
+                <div className="text-lg font-weight-bold text-primary mb-1">Análisis:</div>
+                    <h5 align="justify" >
+                    Consideramos que no hay ninguna anomalía en cuanto a los permisos que se le piden al usuario, 
+                    en el manifest se puede ver que se tiene en comentario la justificación para una parte de los 
+                    permisos y los que no tienen comentario consideramos que no son extraños y que son permisos que 
+                    se necesitan para poder cumplir con los features de la aplicación. Adicionalmente consideramos 
+                    que al ser una aplicación de código abierto, en la que muchas personas realizan contribuciones 
+                    y revisiones es muy poco probable que se de el caso de poner algún permiso anómalo. Creemos que 
+                    lo anterior aplica también para el caso de seguridad, si una persona inserta código malicioso 
+                    que pueda afectar a los usuarios, muchas otras podrán darse cuenta y arreglarlo antes de que 
+                    salga una nueva versión.
+                    </h5>
+                    </div>
+                </div>
+                </div>
+
+
+
                 </div>
                 </div>
         </div>
